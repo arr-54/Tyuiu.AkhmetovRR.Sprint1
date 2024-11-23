@@ -5,9 +5,9 @@ namespace Tyuiu.AkhmetovRR.Sprint1.Task6.V1
     {
         static void Main(string[] args)
         {
-            char x = char.Parse(Console.ReadLine());
+            string x = Console.ReadLine();
             DataService dataService = new DataService();
-            int result = dataService.Calculate(x);
+            string result = dataService.SymbolCode(x);
             Console.WriteLine(result);
             Console.ReadLine();
         }

@@ -12,7 +12,7 @@ namespace Tyuiu.AkhmetovRR.Sprint1.Task2.V5
 
             double a = double.Parse(Console.ReadLine());
             DataService dataService = new DataService();
-            double result = dataService.Calculate(a);
+            int result = dataService.Calculate(a);
             Console.WriteLine("Площадь боковой поверхности куба равна:" + result);
             Console.ReadLine();
         }

@@ -3,9 +3,9 @@ namespace Tyuiu.AkhmetovRR.Sprint1.Task5.V4.Lib
 {
     public class DataService : ISprint1Task5V4
     {
-        public double Calculate(double k)
+        public int Calculate(double k)
         {
-            return Math.Round(k / 3600) - 1;
+            return (int) Math.Round(k / 3600) - 1;
         }
 
         int ISprint1Task5V4.SecondsToHours(int time)

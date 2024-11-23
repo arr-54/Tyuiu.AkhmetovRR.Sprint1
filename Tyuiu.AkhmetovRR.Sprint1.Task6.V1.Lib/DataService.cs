@@ -3,15 +3,12 @@ namespace Tyuiu.AkhmetovRR.Sprint1.Task6.V1.Lib
 {
     public class DataService : ISprint1Task6V1
     {
-        public int Calculate(char x)
+        public string SymbolCode(string value)
         {
-            int y = x;
-            return (y);
+            int y = value[0];
+            return y.ToString();
         }
 
-        string ISprint1Task6V1.SymbolCode(string value)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

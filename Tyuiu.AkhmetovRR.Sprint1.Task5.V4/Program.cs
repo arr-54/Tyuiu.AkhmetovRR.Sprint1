@@ -7,7 +7,7 @@ namespace Tyuiu.AkhmetovRR.Sprint1.Task5.V4
         {
             double k = double.Parse(Console.ReadLine());
             DataService dataService = new DataService();
-            double result = dataService.Calculate(k);
+            int result = dataService.Calculate(k);
             Console.WriteLine("Полных часов прошло:" + result);
             Console.ReadLine();
         }

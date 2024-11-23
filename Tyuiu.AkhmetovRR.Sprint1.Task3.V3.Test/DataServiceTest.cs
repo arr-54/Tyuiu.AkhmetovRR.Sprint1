@@ -1,4 +1,4 @@
-using Tyuiu.AkhmetovRR.Sprint1.Task3.V5.Lib;
+using Tyuiu.AkhmetovRR.Sprint1.Task3.V3.Lib;
 namespace Tyuiu.AkhmetovRR.Sprint1.Task3.V3.Test
 {
     [TestClass]
@@ -11,7 +11,7 @@ namespace Tyuiu.AkhmetovRR.Sprint1.Task3.V3.Test
             double b = 13;
             double c = 16;
             DataService ds = new DataService();
-            double result = ds.Calculate(a, b, c);
+            double result = ds.ParallelepipedVolume(a, b, c);
             Assert.AreEqual(a * b * c, result);
         }
     }

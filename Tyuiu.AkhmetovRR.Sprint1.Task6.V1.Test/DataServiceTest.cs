@@ -7,9 +7,9 @@ namespace Tyuiu.AkhmetovRR.Sprint1.Task6.V1.Test
         [TestMethod]
         public void TestMethod1()
         {
-            char x = '1';
+            string x = "1";
             DataService ds = new DataService();
-            double result = ds.Calculate(x);
+            string result = ds.SymbolCode(x);
             Assert.AreEqual(x, result);
         }
     }

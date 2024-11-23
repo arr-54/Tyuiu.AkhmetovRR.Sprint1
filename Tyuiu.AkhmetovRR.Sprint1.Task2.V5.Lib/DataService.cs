@@ -3,9 +3,9 @@ namespace Tyuiu.AkhmetovRR.Sprint1.Task2.V5.Lib
 {
     public class DataService : ISprint1Task2V5
     {
-        public double Calculate(double a)
+        public int Calculate(double a)
         {
-            return 6 * Math.Pow(a, 2);
+            return (int) (6 * Math.Pow(a, 2));
         }
 
         int ISprint1Task2V5.CalculateSideSquare(int value)
